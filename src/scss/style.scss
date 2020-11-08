@@ -1,0 +1,21 @@
+@use 'variables' as v;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: v.$dark-gray;
+
+    color: white;
+
+    margin: 0;
+    padding: 0;
+}
+
+.text-primary {
+    color: v.$primary-colour;
+}
+
+.title {
+    font-size: 2rem;
+}
+
