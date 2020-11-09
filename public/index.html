@@ -4,22 +4,201 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>CV - Alwin Meijboom</title>
 </head>
 <body>
-    <section class="page">
-        <div class="container">
-            <div class="intro">
-                <img src="" alt="" class="intro-image">
-                <div class="intro-title">
-                    <h1 class="text-primary">Hi, I'm Alwin!</h1>
+    <section class="hero is-medium is-primary is-bold">
+        <div class="hero-head">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <span class="navbar-burger navbar" style="color: white" onclick="toggleMenu()" data-target='navMenu'>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                    <div id="navMenu" class="navbar-menu">
+                        <div class="navbar-end">
+                            <span class="navbar-item">
+                                <a href="https://gitlab.com/ameijboom" class="button is-primary is-inverted">
+                                    <span class="icon">
+                                        <i class="fab fa-gitlab"></i>
+                                    </span>
+                                    <span>
+                                        Gitlab
+                                    </span>
+                                </a>
+                            </span>
+                            <span class="navbar-item">
+                                <a href="https://nl.linkedin.com/in/alwin-meijboom-94908b154" class="button is-primary is-inverted">
+                                    <span class="icon">
+                                        <i class="fab fa-linkedin"></i>
+                                    </span>
+                                    <span>
+                                        Linkedin
+                                    </span>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
                 </div>
-                <div class="intro-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias porro exercitationem illum blanditiis ipsum sequi accusantium ullam quae cumque, repudiandae, explicabo maiores odit corrupti. Totam dolorem dolores veritatis dignissimos? Ea voluptatibus mollitia distinctio ad nobis.
-                </div>
+            </nav>
+        </div>
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    Hi, I'm Alwin Meijboom!
+                </h1>
+                <h2 class="subtitle">A Junior Developer from Zwolle.</h2>
             </div>
         </div>
     </section>
+
+    <div class="section">
+        <div class="container">
+            <h1 class="title">Skills</h1>
+            <div class="columns">
+                <div class="column is-6">
+                    <div class="card" style="height: 100%">
+                        <div class="card-header">
+                            <div class="card-header-title">
+                                Technologies
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            Python, Django, C#, EntityFramework, JavaScript, TypeScript, Angular, NodeJS, SCSS, Google Cloud, Git, Firebase, Vue, Docker, docker-compose, Gulp
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-6">
+                    <div class="card" style="height: 100%">
+                        <div class="card-header">
+                            <div class="card-header-title">
+                                Experiences
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            SCRUM, Linux, Office suite, Windows, MacOS
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section is-medium">
+        <div class="container">
+            <h1 class="title">Jobs</h1>
+            <div class="box">
+                <div class="media">
+                    <div class="media-left">
+                        <figure class="image is-128x128">
+                            <img src="./assets/foster.png" alt="Image">
+                        </figure>
+                    </div>
+
+                    <div class="media-content">
+                        <div class="content">
+                            <p>
+                                <strong>Foster</strong> 2018 - 2019 (6 months) <br>
+                                <br>
+                                During my time at Foster, I was mostly responsible for the backend of the applications. <br>
+                                This mostly consisted of things like setting up the environment, building APIs, building services <br>
+                                and learning about new technologies like Angular.
+                            </p>
+                        </div>
+                        <nav class="level is-mobile">
+                            <div class="level-left">
+                                <span class="level-item"><span class="tag is-primary">C#</span></span>
+                                <span class="level-item"><span class="tag is-primary">Angular</span></span>
+                                <span class="level-item"><span class="tag is-primary">SQL</span></span>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="media">
+                    <div class="media-left">
+                        <figure class="image is-128x128">
+                            <img src="./assets/nederland-eet.png" alt="Image">
+                        </figure>
+                    </div>
+
+                    <div class="media-content">
+                        <div class="content">
+                            <p>
+                                <strong>Nederland-Eet</strong> 2020 (6 months)
+                                While working at Nederland-Eet, I was responsible for the development of an internal project <br>
+                                that used Django to compare data from different sources with the data stored in the production <br>
+                                database. While employed, I also gained low-level helpdesk/support experience (calling customers, calling restaurants, etc.)
+                            </p>
+                        </div>
+                        <nav class="level is-mobile">
+                            <div class="level-left">
+                                <span class="level-item"><span class="tag is-primary">Python</span></span>
+                                <span class="level-item"><span class="tag is-primary">Django</span></span>
+                                <span class="level-item"><span class="tag is-primary">Vue3</span></span>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="media">
+                    <div class="media-left">
+                        <figure class="image is-128x128">
+                            <img src="./assets/mediamarkt-logo.jpg" alt="Image">
+                        </figure>
+                    </div>
+
+                    <div class="media-content">
+                        <div class="content">
+                            <p>
+                                <strong>MediaMarkt</strong> 2019 - 2019 (4 months)
+                                <br>
+                                I was a Smartbar employee at the MediaMarkt in Zwolle. My job consisted of offering support to customers
+                                in a wide variety. From setting up their smartphones to updating their navigation to troubleshooting their computers.
+                                I mostly learned how to properly diagnose problems, how to interact with customers & how to cooperate in stressfull situations.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="container">
+            <h1 class="title">About Me</h1>
+            <div class="box">
+                <h2 class="subtitle">Introduction</h2>
+                I started my programming career back in 2012, when Minecraft (a sandbox video game) mods were all the rage. <br>
+                Me and some of my friends started playing around with ccLua, which is basically Lua but a bit simplified, to write <br>
+                programs inside of the a mod called "ComputerCraft". I've been hooked on programming ever since and started studying <br>
+                Application Development at Deltion College in Zwolle, which I have now graduated from.
+                <br>
+            </div>
+
+            <div class="box">
+                <h2 class="subtitle">Degree</h2>
+                I studied Application Development at Deltion College in Zwolle, a MBO niveau 4 study. I graduated in July 2020 <br>
+                and have taken some time to relax and focus on what I want to do.
+            </div>
+
+            <div class="box">
+                <h2 class="subtitle">Hobbies</h2>
+                I spend a good portion of my day engaging in video games while chatting with my friends on Discord. <br>
+                Personally, I can enjoy a retro singleplayer game as much as a AAA multiplayer phenomenon. <br>
+                Apart from gaming, I enjoy watching Anime! From seasonals such as Fire Force to classics as One Piece! <br>
+                Aside from those two, I also code stuff like Discord bots and small programs and enjoy a good walk/cycling tour through forests.
+            </div>
+        </div>
+    </div>
 </body>
 
 <script src="script.js"></script>

@@ -2,32 +2,52 @@ const gulp = require('gulp');
 const uglify = require('gulp-uglify');
 const concat = require('gulp-concat');
 const sass = require('gulp-sass-no-nodesass');
+const browserSync = require('browser-sync').create();
 
 sass.compiler = require('sass')
 
-gulp.task('compile-js', function () {
+let paths = {
+    style: ['./src/scss/style.scss'],
+    js: ['./src/js/*.js'],
+    bulma: ['./node_modules/bulma/bulma.sass']
+}
+
+function compileJs() {
     return gulp.src('./src/js/*.js')
         .pipe(concat('script.js'))
         .pipe(uglify())
         .pipe(gulp.dest('./public/'))
-})
+        .pipe(browserSync.stream())
+}
 
-gulp.task('compile-sass', function () {
-    return gulp.src('./src/scss/style.scss', {allowEmpty: true})
-        .pipe(sass().on('error', sass.logError))
+function compileSass() {
+    return gulp.src('./src/scss/style.scss')
+        .pipe(sass())
         .pipe(gulp.dest('./public'))
-})
+        .pipe(browserSync.stream())
+}
 
-gulp.task('watch-style', function() {
-    return gulp.watch('./src/scss/style.scss')
-        .on('change', function () {
-            console.log('File changed! Compiling...')
-            gulp.task('compile-sass')
-        })
-})
+function compileIcons() {
+    return gulp.src('node_modules/@fortawesome/fontawesome-free/webfonts/*')
+        .pipe(gulp.dest('./public/webfonts'))
+}
+
+function serve() {
+    browserSync.init({
+        server: {
+            baseDir: './public'
+        }
+    })
+
+    gulp.watch(paths.style, compileSass)
+    gulp.watch(paths.js, compileJs)
+}
+
+
 
 exports.default = gulp.series(
-    gulp.task('compile-sass'),
-    gulp.task('compile-js')
+    compileJs,
+    compileSass
 )
 
+exports.serve = gulp.series(compileIcons, serve)

@@ -1,21 +1,16 @@
 @use 'variables' as v;
+@use '../../node_modules/bulma/bulma';
+@use 'font';
+
+@use "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@use "../../node_modules/@fortawesome/fontawesome-free/scss/brands";
+@use "../../node_modules/@fortawesome/fontawesome-free/scss/regular";
+@use "../../node_modules/@fortawesome/fontawesome-free/scss/solid";
+@use "../../node_modules/@fortawesome/fontawesome-free/scss/v4-shims";
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background: v.$dark-gray;
-
-    color: white;
-
-    margin: 0;
-    padding: 0;
+    color: black;
 }
-
-.text-primary {
-    color: v.$primary-colour;
-}
-
-.title {
-    font-size: 2rem;
-}
-
