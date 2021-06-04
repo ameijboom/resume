@@ -1,1 +1,0 @@
-function toggleMenu(){let e=document.getElementById("navMenu");e.classList.toggle("is-active")}

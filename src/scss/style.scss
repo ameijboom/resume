@@ -1,12 +1,6 @@
 @use 'variables' as v;
-@use '../../node_modules/bulma/bulma';
+@use '~bulma/bulma';
 @use 'font';
-
-@use "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
-@use "../../node_modules/@fortawesome/fontawesome-free/scss/brands";
-@use "../../node_modules/@fortawesome/fontawesome-free/scss/regular";
-@use "../../node_modules/@fortawesome/fontawesome-free/scss/solid";
-@use "../../node_modules/@fortawesome/fontawesome-free/scss/v4-shims";
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
