@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/resume/static/css/main.3e352656.css",
+    "main.js": "/resume/static/js/main.3ee368c4.js",
+    "static/media/headshot.png": "/resume/static/media/headshot.0255a50da3afc780a785.png",
+    "static/media/streak.png": "/resume/static/media/streak.fb353e0425ca447c3b90.png",
+    "static/media/mediamarkt-logo.jpg": "/resume/static/media/mediamarkt-logo.d21207e6c8fd562ea3a1.jpg",
+    "static/media/foster.png": "/resume/static/media/foster.bba563678889bb9641c1.png",
+    "static/media/nederland-eet.png": "/resume/static/media/nederland-eet.ee520d6bba6dab975fc0.png",
+    "static/media/phosphorus.png": "/resume/static/media/phosphorus.82c96549cbd0361279ce.png",
+    "static/media/SheCanSTEM.png": "/resume/static/media/SheCanSTEM.38f297a6008e3e88f318.png",
+    "index.html": "/resume/index.html",
+    "main.3e352656.css.map": "/resume/static/css/main.3e352656.css.map",
+    "main.3ee368c4.js.map": "/resume/static/js/main.3ee368c4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e352656.css",
+    "static/js/main.3ee368c4.js"
+  ]
+}
