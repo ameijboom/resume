@@ -1,283 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV - Alwin Meijboom</title>
-</head>
-<body>
-    <section class="hero is-medium is-primary is-bold">
-        <div class="hero-head">
-            <nav class="navbar">
-                <div class="container">
-                    <div class="navbar-brand">
-                        <span class="navbar-burger navbar" style="color: white" onclick="toggleMenu()" data-target='navMenu'>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </span>
-                    </div>
-                    <div id="navMenu" class="navbar-menu">
-                        <div class="navbar-end">
-                            <span class="navbar-item">
-                                <a href="https://gitlab.com/ameijboom" target="_blank" class="button is-primary is-inverted" >
-                                    <span class="icon">
-                                        <i class="fab fa-gitlab"></i>
-                                    </span>
-                                    <span>
-                                        Gitlab
-                                    </span>
-                                </a>
-                            </span>
-                            <span class="navbar-item">
-                                <a href="https://github.com/mythicalsora" target="_blank" class="button is-primary is-inverted">
-                                    <span class="icon">
-                                        <i class="fab fa-github"></i>
-                                    </span>
-                                    <span>
-                                        Github
-                                    </span>
-                                </a>
-                            </span>
-                            <span class="navbar-item">
-                                <a href="https://nl.linkedin.com/in/alwin-meijboom-94908b154" target="_blank" class="button is-primary is-inverted">
-                                    <span class="icon">
-                                        <i class="fab fa-linkedin"></i>
-                                    </span>
-                                    <span>
-                                        Linkedin
-                                    </span>
-                                </a>
-                            </span>
-                            <span class="navbar-item">
-                                <a href="https://twitter.com/AlwinMeijboom" target="_blank" class="button is-primary is-inverted">
-                                    <span class="icon">
-                                        <i class="fab fa-twitter"></i>
-                                    </span>
-                                    <span>
-                                        Twitter
-                                    </span>
-                                </a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </div>
-        <div class="hero-body">
-            <div class="container">
-                <h1 class="title">
-                    Hi, I'm Alwin Meijboom!
-                </h1>
-                <h2 class="subtitle">A Back-End Developer & CMGT Student from Zwolle.</h2>
-            </div>
-        </div>
-    </section>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="Resume"
+      content="Resume created by Alwin Meijboom using React"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
 
-    <div class="section">
-        <div class="container">
-            <h1 class="title">Skills</h1>
-            <div class="columns">
-                <div class="column is-6">
-                    <div class="card" style="height: 100%">
-                        <div class="card-header">
-                            <div class="card-header-title">
-                                Technologies
-                            </div>
-                        </div>
-                        <div class="card-content">
-                            Python, Django, C#, EntityFramework, JavaScript, TypeScript, Angular, NodeJS, SCSS, Google Cloud, Git, Firebase, Vue, Docker, docker-compose, Webpack, NGINX
-                        </div>
-                    </div>
-                </div>
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Alwin | Resume</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
 
-                <div class="column is-6">
-                    <div class="card" style="height: 100%">
-                        <div class="card-header">
-                            <div class="card-header-title">
-                                Experiences
-                            </div>
-                        </div>
-                        <div class="card-content">
-                            SCRUM, Linux, Office suite, Windows, MacOS, GXP
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
 
-    <div class="section is-medium">
-        <div class="container">
-            <h1 class="title">Jobs</h1>
-            <div class="box">
-                <div class="media">
-                    <div class="media-left">
-                        <figure class="image is-128x128">
-                            <img src="./assets/foster.png" alt="Image">
-                        </figure>
-                    </div>
-
-                    <div class="media-content">
-                        <div class="content">
-                            <p>
-                                <strong>Foster</strong> 2018 - 2019 (6 months) <br>
-                                <br>
-                                During my time at Foster, I was mostly responsible for the backend of the applications. <br>
-                                This mostly consisted of things like setting up the environment, building APIs, building services <br>
-                                and learning about new technologies like Angular.
-                            </p>
-                        </div>
-                        <nav class="level is-mobile">
-                            <div class="level-left">
-                                <span class="level-item"><span class="tag is-primary">C#</span></span>
-                                <span class="level-item"><span class="tag is-primary">Angular</span></span>
-                                <span class="level-item"><span class="tag is-primary">SQL</span></span>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="media">
-                    <div class="media-left">
-                        <figure class="image is-128x128">
-                            <img src="./assets/nederland-eet.png" alt="Image">
-                        </figure>
-                    </div>
-
-                    <div class="media-content">
-                        <div class="content">
-                            <p>
-                                <strong>Nederland-Eet</strong> 2020 (6 months) <br>
-                                <br>
-                                While working at Nederland-Eet, I was responsible for the development of an internal project <br>
-                                that used Django to compare data from different sources with the data stored in the production <br>
-                                database. While employed, I also gained low-level helpdesk/support experience (calling customers, calling restaurants, etc.)
-                            </p>
-                        </div>
-                        <nav class="level is-mobile">
-                            <div class="level-left">
-                                <span class="level-item"><span class="tag is-primary">Python</span></span>
-                                <span class="level-item"><span class="tag is-primary">Django</span></span>
-                                <span class="level-item"><span class="tag is-primary">Vue3</span></span>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="media">
-                    <div class="media-left">
-                        <figure class="image is-128x128">
-                            <img src="./assets/mediamarkt-logo.jpg" alt="Image">
-                        </figure>
-                    </div>
-
-                    <div class="media-content">
-                        <div class="content">
-                            <p>
-                                <strong>MediaMarkt</strong> 2019 - 2020 (7 months) <br>
-                                <br>
-                                I was a Smartbar employee at the MediaMarkt in Zwolle. My job consisted of offering support to customers
-                                in a wide variety. From setting up their smartphones to updating their navigation to troubleshooting their computers.
-                                I mostly learned how to properly diagnose problems, how to interact with customers & how to cooperate in stressfull situations.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="section">
-        <div class="container">
-            <h1 class="title">About Me</h1>
-            <div class="box">
-                <h2 class="subtitle">Introduction</h2>
-                I started my programming career back in 2012, when Minecraft (a sandbox video game) mods were all the rage. <br>
-                Me and some of my friends started playing around with ccLua, which is basically Lua but a bit simplified, to write <br>
-                programs inside of the a mod called "ComputerCraft". I've been hooked on programming ever since and started studying <br>
-                Application Development at Deltion College in Zwolle, which I have now graduated from.
-                <br>
-            </div>
-
-            <div class="box">
-                <h2 class="subtitle">Degree</h2>
-                I studied Application Development at Deltion College in Zwolle, a MBO niveau 4 study. I graduated in July 2020 <br>
-                and have taken some time to relax and focus on what I want to do. <br>
-                Shortly after, I started the study Creative Media and Gaming Technologies at Saxion Enschede, which I've been busy with ever since.
-            </div>
-
-            <div class="box">
-                <h2 class="subtitle">Hobbies</h2>
-                I spend a good portion of my day engaging in video games while chatting with my friends on Discord. <br>
-                Personally, I can enjoy a retro singleplayer game as much as a AAA multiplayer phenomenon. <br>
-                I also code stuff like Discord bots and small programs and enjoy a good walk/cycling tour through forests. <br>
-                Aside from those, I recently got back into reading mostly while on the train.
-            </div>
-        </div>
-    </div>
-
-    <div class="section">
-        <div class="container">
-            <h1 class="title">Projects</h1>
-            <div class="columns">
-                <div class="card column">
-                    <div class="card-image">
-                        <figure class="image is-4by3">
-                            <img src="https://i.ibb.co/sPXbppJ/poster.png" alt="Placeholder image">
-                        </figure>
-                    </div>
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-content">
-                                <p class="title is-4">Streak</p>
-                                <p class="subtitle is-6"><a href="https://github.com/mythicalsora/project-lift-off" target="_blank">Github</a></p>
-                            </div>
-                        </div>
-    
-                        <div class="content">
-                            <b>Streak</b> is a hack 'n' slash platformer we created using the Saxion GXP Engine. <br><br>
-                            The game is mainly focussed on the character movement, hence why we opted to go with custom
-                            movement & collisions instead of using the more static GXP methods.
-                        </div>
-                    </div>
-                </div>
-    
-                <div class="card column">
-                    <div class="card-image">
-                        <figure class="image is-4by3">
-                            <img src="https://i.ibb.co/y45gXtc/Screenshot-from-2022-02-21-16-03-29.png" alt="Placeholder image">
-                        </figure>
-                    </div>
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-content">
-                                <p class="title is-4">Forum</p>
-                                <p class="subtitle is-6"><a href="https://github.com/mythicalsora/forum.discord" target="_blank">Github</a></p>
-                            </div>
-                        </div>
-    
-                        <div class="content">
-                            <b>Forum</b> is a new project I've recently started for my Discord server. <br><br>
-                            The project consists of a C# API for database interactions and the bot itself in Python.
-                            It'll be used as both a currency & management bot, that'll be easy to use for the less tech savy.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <footer class="footer">
-        <div class="content has-text-centered">
-            <strong>+31 6 37596363 | meijboom.am@gmail.com</strong>
-        </div>
-    </footer>
-</body>
-
-<script src="bundle.js"></script>
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
 </html>
