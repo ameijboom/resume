@@ -1,12 +1,12 @@
 import React from "react";
-import headshot from '../assets/headshot.png';
+import headshot from '../assets/headshot.jpg';
 
 export default class About extends React.Component {
     render() {
         return(
             <div className="About card">
                 <div className="card-image">
-                    <figure className="image is-4by5">
+                    <figure className="image">
                             <img src={headshot} alt="headshot" />
                     </figure>
                 </div>
@@ -21,8 +21,8 @@ export default class About extends React.Component {
 
                     <div className="content">
                         Hello! My name is Alwin Meijboom, also known online as MythicalSora,
-                        a 21-year old CMGT student @ Saxion in Enschede.
-                        I'm originally from Zwolle, but moved to Enschede for my study earlier this year.
+                        a 22-year old CMGT student @ Saxion in Enschede.
+                        I'm originally from Zwolle, but moved to Enschede for my study early 2022.
                     </div>
                 </div>
             </div>
