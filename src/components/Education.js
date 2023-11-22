@@ -25,8 +25,8 @@ export default class Education extends React.Component {
                 <div className="card">
                     <div className="card-content">
                         <div className="content">
-                            <strong>Saxion Enschede</strong> <p className="subtitle">2021</p>
-                            HBO Creative Media and Gaming Technologies | Ongoing
+                            <strong>Saxion Enschede</strong> <p className="subtitle">2021 - 2023</p>
+                            HBO Creative Media and Gaming Technologies | Quit
                         </div>
                     </div>
                 </div>

@@ -6,7 +6,9 @@ export default class ProjectDetail extends React.Component {
         <article className="media box">
             <div className="media-left">
                 <a href={this.props.url} target="_blank" rel="noreferrer" className="image is-128x128">
-                    <img src={this.props.image} alt="Logo" />
+                    {this.props.image ?
+                        <img src={this.props.image} alt="Logo" />
+                    :null }
                 </a>
             </div>
 

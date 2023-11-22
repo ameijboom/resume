@@ -20,9 +20,9 @@ export default class About extends React.Component {
                     </div>
 
                     <div className="content">
-                        Hello! My name is Alwin Meijboom, also known online as MythicalSora,
-                        a 22-year old CMGT student @ Saxion in Enschede.
-                        I'm originally from Zwolle, but moved to Enschede for my study early 2022.
+                        Hello! My name is Alwin Meijboom, also known online as MythicalSora.
+                        I'm a 22-year old Linux Cloud engineer @ ROOT, but am still a developer at heart.
+                        Originally from Zwolle, but living in Hengelo.
                     </div>
                 </div>
             </div>

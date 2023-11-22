@@ -1,7 +1,7 @@
 import React from "react";
 
 export default class Skills extends React.Component {
-    technologies = ['C#', 'Python', 'Java', 'JavaScript', 'TypeScript', 'Django', 'Firebase','EntityFramework', 'React', 'Angular', 'SCSS', 'Git', 'Kubernetes', 'Docker', 'Docker-Compose', 'GXP', 'Unity', 'Windows', 'Linux', 'MacOS'];
+    technologies = ['C#', 'Python', 'Java', 'JavaScript', 'TypeScript', 'Django', 'Firebase','EntityFramework', 'React', 'Angular', 'SCSS', 'Git', 'Kubernetes', 'Docker', 'Docker-Compose', 'Ansible', 'GXP', 'Unity', 'Windows', 'Linux', 'MacOS'];
     other = ['SCRUM', 'Dutch', 'English', 'Hardware']
 
     render() {

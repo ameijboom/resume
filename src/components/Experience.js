@@ -2,6 +2,8 @@ import React from "react";
 import foster from "../assets/foster.png";
 import mediamarkt from "../assets/mediamarkt-logo.jpg";
 import nederlandEet from "../assets/nederland-eet.png";
+import rootisp from "../assets/root.png";
+import zt from "../assets/zt_systems.jpg";
 
 import ExperienceCard from './ExperienceCard';
 
@@ -26,7 +28,26 @@ export default class Experience extends React.Component {
                     I was a Smartbar employee at the MediaMarkt in Zwolle. My job consisted of offering support to customers in a wide variety. <br />
                     From setting up their smartphones to updating their navigation to troubleshooting their computers. I mostly learned how to properly diagnose problems, <br />
                     how to interact with customers & how to cooperate in stressfull situations.
-                </ExperienceCard>     
+                </ExperienceCard>
+
+                <ExperienceCard logo={zt} title="ZT Systems" time="2023" tags={[]}>
+                    For a short period of time (about 3 weeks to a month) I worked as a Quality
+                    Control Operator at ZT Systems, a manufacturer of server racks and much more
+                    for data centers. My job was to take 1 or several racks, attach them to our
+                    testing suite and make sure everything about the server was working. This work
+                    includes performing diagnostics & repairing servers manually if needed.
+                    However, due to the harsh working conditions, unconventional work hours &
+                    unreliability of the agency I worked through, I decided to leave within the
+                    trial period.
+                </ExperienceCard>
+
+                <ExperienceCard logo={rootisp} title="ROOT" time="2023 - current" tags={['Python', 'Ansible', 'Kubernetes']}>
+                    I’ve been working for ROOT since last August as a cloud engineer, but the role
+                    itself comprises of many other roles as well. From DevOps to customer support
+                    to Cloud engineer. While the company and its culture are great, the scope of my
+                    work and the broad range of different tasks combined with the lack of
+                    creativeness has made me want to switch roles.
+                </ExperienceCard>
             </div>
         )
     }
